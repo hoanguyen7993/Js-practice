@@ -1,0 +1,5 @@
+ls
+git ls-files
+git rm file1.txt file2.txt : remove from working directory and staging area
+mv file1.txt main.js  : rename or move file/directory
+git mv file.txt file.js : rename or move on both working directory and staging area
