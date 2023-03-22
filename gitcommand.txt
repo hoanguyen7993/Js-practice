@@ -5,3 +5,4 @@ mv file1.txt main.js  : rename or move file/directory
 git mv file.txt file.js : rename or move on both working directory and staging area
 
 another small-branch has been made recently
+adding a few more lines and delete this branch right after.
