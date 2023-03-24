@@ -4,63 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      #id;
-    </style>
+
+    <title>Hoa's Projects</title>
+
+    <link rel="stylesheet" href="rockpaper.css" />
+
+    <style></style>
   </head>
+
   <body>
-    <script>
-      let playerSelection = prompt("rock, paper or scissors?");
+    <div class="rockpaper">
+      <button id="rock">Rock</button>
+      <button id="paper">Paper</button>
+      <button id="scissors">Scissors</button>
+    </div>
+    <div class="result">
+      <p></p>
+      <button>reset</button>
+    </div>
 
-      function getComputerChoice() {
-        let randomNum = Math.floor(Math.random() * 3);
-
-        switch (randomNum) {
-          case 0:
-            return "rock";
-            break;
-          case 1:
-            return "paper";
-            break;
-          case 2:
-            return "scissors";
-            break;
-        }
-      }
-      const computerSelection = getComputerChoice();
-      console.log("computer:" + computerSelection);
-      console.log("player:" + playerSelection);
-      function playRound(playerSelection, computerSelection) {
-        // your code here!
-
-        if (computerSelection == "scissors" && playerSelection == "paper") {
-          console.log("You loose!");
-        } else if (
-          computerSelection == "scissors" &&
-          playerSelection == "rock"
-        ) {
-          console.log("You win!");
-        } else if (
-          computerSelection == "paper" &&
-          playerSelection == "scissors"
-        ) {
-          console.log("You win!");
-        } else if (computerSelection == "paper" && playerSelection == "rock") {
-          console.log("You loose!");
-        } else if (computerSelection == "rock" && playerSelection == "paper") {
-          console.log("You win!");
-        } else if (
-          computerSelection == "rock" &&
-          playerSelection == "scissors"
-        ) {
-          console.log("You loose!");
-        } else if (computerSelection == playerSelection) {
-          console.log("Draw!");
-        }
-      }
-
-      playRound(playerSelection, computerSelection);
-    </script>
+    <script src="rockpaper.js"></script>
+    <script></script>
   </body>
 </html>
