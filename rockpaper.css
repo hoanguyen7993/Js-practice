@@ -1,0 +1,29 @@
+.rockpaper {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 40px 30px;
+    background-color: whitesmoke;
+    
+    align-items: center;
+   
+}
+#rock,
+#paper,
+#scissors {
+    width: 100px;
+    height: 100px;
+    background: palevioletred;
+    border-radius: 15px;
+    border: 3px;
+    font-size: 23px;
+    font-weight: 600;
+
+
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
